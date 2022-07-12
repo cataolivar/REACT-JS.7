@@ -34,7 +34,10 @@ const NavBar = () => {
       <h1> - GENDER FREE STORE - </h1>
       <ul>
         {categories.map((category) => (<Link to={category.path} key={category.id}>{category.name}</Link> ))}
+        <Link to={"/carrito"}>
         <CartWidget />
+        </Link>
+        
       </ul>
     
     </nav>

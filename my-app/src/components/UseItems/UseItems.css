@@ -14,3 +14,8 @@
 button{
     background-color:pink;
 }
+
+.buttonCarrito{
+    height: 30px;
+    width: 80px;
+}
